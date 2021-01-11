@@ -3,12 +3,12 @@ For this project we will use below tools
 1. Pycharm
 2. Github Desktop
 3. Firbase Console
-4. Google Cloud Functions
+4. GCP- Google Cloud Functions
 
 First run command to see python version
 ``python3 -V``
 
-#Create virtual envirnment now
+##Create virtual envirnment now
 First we have to install `python3-venv` with following commands
 
 Use below command to create virtual env
@@ -30,15 +30,15 @@ Now run below command
 ```
 functions-framework --target hello_world
 ```
-Now you can test it by hitting below 
-```
-http://0.0.0.0:8080/?name=Shantanu&lastname=Madiwale
-http://0.0.0.0:8080/
-```
 For closing running app
 ```
 control^ c
 ```
+##Now you can test it by importing postman json file into postman
+```
+../googleCloudFunctionFirst/googleCloudFunctionFirst.postman_collection.json
+```
+
 
 
 
