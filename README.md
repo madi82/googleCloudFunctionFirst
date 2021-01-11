@@ -40,11 +40,5 @@ For closing running app
 control^ c
 ```
 
-We can use postman json file to import in postman and use it for testing, also if you update anything re-export and save it.
-## Check if you have gcloud configured and setupped to your google account, if not refere below video
-```
-https://www.youtube.com/watch?v=k-8qFh8EfFA
-```
-
 
 
