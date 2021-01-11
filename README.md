@@ -8,7 +8,7 @@ For this project we will use below tools
 First run command to see python version
 ``python3 -V``
 
-##Create virtual envirnment now
+# Create virtual envirnment now
 First we have to install `python3-venv` with following commands
 
 Use below command to create virtual env
@@ -34,7 +34,7 @@ For closing running app
 ```
 control^ c
 ```
-##Now you can test it by importing postman json file into postman
+# Now you can test it by importing postman json file into postman
 ```
 ../googleCloudFunctionFirst/googleCloudFunctionFirst.postman_collection.json
 ```
