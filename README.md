@@ -28,7 +28,7 @@ cd helloworld/
 ```
 Now run below command 
 ```
-functions-framework --target hello_world
+functions-framework --target hello_world --debug
 ```
 For closing running app
 ```
