@@ -13,15 +13,15 @@ First run command to see python version
 First we have to install `python3-venv` with following commands
 
 Use below command to create virtual env
-``python3 -m venv virtualenv``
+``python3 -m venv venv``
 
 We need to activate virtual envirnment by following command 
-``source virtualenv/bin/activate``
+``source venv/bin/activate``
 
 Then, we can add dependencies (packages) by putting them
-in a `requirements.txt` file and we then install them with:
+in a `dev_requirements.txt` file and we then install them with:
 ```
-pip install -r requirements.txt
+pip install -r dev_requirements.txt
 ```
 To run function locally we need to navigate inside folder
 ```
