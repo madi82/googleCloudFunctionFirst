@@ -1,9 +1,11 @@
 import firebase_admin
 from firebase_admin import credentials, firestore
 
+# you can fetch this key from firebase console Project Overview > Project Settings > Service Account 
 cred = credentials.Certificate("../firestoreServiceAccountKey.json")
 firebase_admin.initialize_app(cred)
 db = firestore.client()
+
 
 def hello_world(request):
     request_args = request.args

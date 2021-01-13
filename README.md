@@ -1,9 +1,10 @@
 # serverless
 For this project we will use below tools
 1. Pycharm
-2. Github Desktop
-3. Firbase Console
-4. GCP- Google Cloud Functions
+2. Postman
+3. Github Desktop
+4. Firbase Console - Firestore
+5. GCP- Google Cloud Functions
 
 First run command to see python version
 ``python3 -V``
