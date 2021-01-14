@@ -36,6 +36,6 @@ def hello_world(request):
         name = request_json['name']
         lastname = request_json['lastname']
     else:
-        name = 'World'
+        name = 'Lavdya'
         lastname = ''
     return f'Hello {name} {lastname}'
