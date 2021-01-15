@@ -89,6 +89,82 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "gcloud loading page",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "[your bariar token]",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://us-central1-cloudfunctionfirst.cloudfunctions.net/hello_world",
+					"protocol": "https",
+					"host": [
+						"us-central1-cloudfunctionfirst",
+						"cloudfunctions",
+						"net"
+					],
+					"path": [
+						"hello_world"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "gcloud post req",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "[your bariar token]",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\":\"Siddharth\",\n    \"lastname\":\"Rajwade\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://us-central1-cloudfunctionfirst.cloudfunctions.net/hello_world",
+					"protocol": "https",
+					"host": [
+						"us-central1-cloudfunctionfirst",
+						"cloudfunctions",
+						"net"
+					],
+					"path": [
+						"hello_world"
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
