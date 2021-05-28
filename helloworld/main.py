@@ -11,4 +11,4 @@ def hello_world(request):
         'Access-Control-Allow-Origin': '*'
     }
 
-    return f'Hello world', 200, headers
+    return f'Hello shan', 200, headers
